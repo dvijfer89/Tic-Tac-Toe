@@ -1,0 +1,38 @@
+#tic-tac-toe{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.block{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: rgb(237, 234, 7);
+    border: 2px solid rgb(0, 7, 100);
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+#text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: absolute;
+    top: 0%;
+    left: 33%;
+    margin-top: 25px
+}
+#res{
+    position: absolute;
+    top: 0%;
+    left: 46%;
+    margin-top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
